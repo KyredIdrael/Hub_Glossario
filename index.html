@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Hub Glossario</title>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">	
 		<style type="text/css">
 			*{
 				font-family: arial;
@@ -45,7 +45,10 @@
 			button:hover{
 				background-color: #212121;
 			}
-		</style>
+			thead tr th{
+				background-color: #2c3034 !important;
+			}
+		</style>		
 	</head>
 	<body class="bg-black text-white">
 		<header>
@@ -97,11 +100,34 @@
 		<div class="row">
 			<div class="col-12">
 				<section>
-					<table class="table table-striped table-dark table-bordered table-hover">
+					<table class="table table-dark table-bordered table-hover">
 						<thead>
 							<tr>
 								<th>Termo</th>
 								<th>Significado</th>
+							</tr>
+						</thead>
+						<thead>
+							<tr>
+								<th colspan="2" id="A">A</th>
+							</tr>
+						</thead>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="B">B</th>
+							</tr>
+						</thead>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="C">C</th>
 							</tr>
 						</thead>
 						<tr>
@@ -120,40 +146,67 @@
 							<td></td>
 							<td></td>
 						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="D">D</th>
+							</tr>
+						</thead>
 						<tr>
-							<td></td>
-							<td></td>
+							<td><b>DNS</b> (Domain Name System - Sistema de Nomes de Domínio)</td>
+							<td>
+								É um sistema que traduz nomes de domínio (exemplo.com) em endereços IP para facilitar a navegação na internet.
+							</td>
 						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="E">E</th>
+							</tr>
+						</thead>
 						<tr>
-							<td></td>
-							<td></td>
+							<td><b>Ethernet</b></td>
+							<td>
+								É um padrão de tecnologia de rede com fio que define como os dispositivos se comunicam em uma rede local.
+							</td>
 						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="F">F</th>
+							</tr>
+						</thead>
 						<tr>
-							<td><b id="D">DNS</b> (Domain Name System - Sistema de Nomes de Domínio)</td>
-							<td>É um sistema que traduz nomes de domínio (exemplo.com) em endereços IP para facilitar a navegação na internet.</td>
-						</tr>
-						<tr>
-							<td><b id="E">Ethernet</b></td>
-							<td>É um padrão de tecnologia de rede com fio que define como os dispositivos se comunicam em uma rede local.</td>
-						</tr>
-						<tr>
-							<td><b id="F">Framework</b></td>
-							<td>É um conjunto de ferramentas, bibliotecas e diretrizes que ajudam os desenvolvedores a criar aplicativos de software mais facilmente.</td>
+							<td><b>Framework</b></td>
+							<td>
+								É um conjunto de ferramentas, bibliotecas e diretrizes que ajudam os desenvolvedores a criar aplicativos de software mais facilmente.
+							</td>
 						</tr>
 						<tr>
 							<td><b>Front-End</b></td>
-							<td>É a parte de um site ou aplicativo que os usuários veem e interagem, responsável pela interface do usuário.</td>
+							<td>
+								É a parte de um site ou aplicativo que os usuários veem e interagem, responsável pela interface do usuário.
+							</td>
 						</tr>
 						<tr>
 							<td><b>FTP</b> (File Transfer Protocol - Protocolo de Tranferência de Arquivos)</td>
-							<td>É um protocolo de transferência de arquivos que permite o envio e o recebimento de arquivos pela internet.</td>
+							<td>
+								É um protocolo de transferência de arquivos que permite o envio e o recebimento de arquivos pela internet.
+							</td>
 						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="G">G</th>
+							</tr>
+						</thead>
 						<tr>
-							<td><b id="G">Gateway</b></td>
+							<td><b>Gateway</b></td>
 							<td>É um dispositivo ou software que conecta duas redes diferentes, permitindo a comunicação entre elas.</td>
 						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="H">H</th>
+							</tr>
+						</thead>
 						<tr>
-							<td><b id="H">Hardware</b></td>
+							<td><b>Hardware</b></td>
 							<td>São os componentes físicos de um computador ou dispositivo eletrônico, como processador, memória, teclado, monitor, etc.</td>
 						</tr>
 						<tr>
@@ -172,8 +225,13 @@
 							<td><b>Hub</b></td>
 							<td>É um dispositivo de rede que atua como um ponto central para conectar vários dispositivos em uma rede local, mas geralmente é menos inteligente do que um switch.</td>
 						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="I">I</th>
+							</tr>
+						</thead>
 						<tr>
-							<td><b id="I">IOT</b> (Internet of Things - Internet das Coisas)</td>
+							<td><b>IOT</b> (Internet of Things - Internet das Coisas)</td>
 							<td>Refere-se a objetos e dispositivos que podem se comunicar pela Internet e trocar dados entre si, permitindo automação e controle remoto. Os exemplos incluem termostatos inteligentes e iluminação controlada por
 							aplicativos.</td>
 						</tr>
@@ -181,36 +239,86 @@
 							<td><b>IP</b> (Internet Protocol - Protocolo de internet)</td>
 							<td>É o protocolo que permite que dispositivos se comuniquem pela internet. Ele atribui	endereços exclusivos aos dispositivos para que possam enviar e receber informações uns dos outros.</td>
 						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="J">J</th>
+							</tr>
+						</thead>
 						<tr>
-							<td><b id="J">Java</b></td>
+							<td><b>Java</b></td>
 							<td>Java é uma linguagem de programação amplamente utilizada, conhecida por sua portabilidade e capacidade de execução em diferentes sistemas. É comumente usado no desenvolvimento de aplicativos web e móveis.</td>
 						</tr>
 						<tr>
 							<td><b>JavaScript</b></td>
 							<td>JavaScript é uma linguagem de programação usada principalmente para interatividade em sites. Funciona em um navegador da web e permite criar páginas da web dinâmicas e responsivas.</td>
 						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="K">K</th>
+							</tr>
+						</thead>
+						<thead>
+							<tr>
+								<th colspan="2" id="L">L</th>
+							</tr>
+						</thead>
 						<tr>
-							<td><b id="L">LAN</b> (Local Area Network - Rede Local de Internet)</td>
+							<td><b>LAN</b> (Local Area Network - Rede Local de Internet)</td>
 							<td>Uma rede de computadores que cobre uma área geográfica limitada, como uma casa, um escritório ou um edifício. Permite a comunicação e o compartilhamento de recursos entre dispositivos próximos.</td>
 						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="M">M</th>
+							</tr>
+						</thead>
 						<tr>
-							<td><b id="M">MAN</b> (Metropolitan Area Network - Rede Metropolitana de Internet)</td>
+							<td><b>MAN</b> (Metropolitan Area Network - Rede Metropolitana de Internet)</td>
 							<td>Uma rede que cobre uma cidade, como uma cidade. Ele conecta várias redes locais (LANs) em uma grande área geográfica.</td>
 						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="N">N</th>
+							</tr>
+						</thead>
 						<tr>
-							<td><b id="N">NFC</b> (Near Field Communication - Comunicação de Campo Próximo)</td>
+							<td><b>NFC</b> (Near Field Communication - Comunicação de Campo Próximo)</td>
 							<td>É uma tecnologia que permite a comunicação perfeita entre dispositivos, geralmente a poucos centímetros de distância. É comumente usado para pagamentos móveis e transferência de dados entre smartphones.</td>
 						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="O">O</th>
+							</tr>
+						</thead>
+						<thead>
+							<tr>
+								<th colspan="2" id="P">P</th>
+							</tr>
+						</thead>
 						<tr>
-							<td><b id="P">PHP</b> (Hypertext Preprocessor - Pré-processador de Hipertexto)</td>
+							<td><b>PHP</b> (Hypertext Preprocessor - Pré-processador de Hipertexto)</td>
 							<td>PHP é a linguagem de programação mais usada para desenvolvimento web. É comumente usado em servidores web para criar páginas dinâmicas e interativas.</td>
 						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="Q">Q</th>
+							</tr>
+						</thead>
 						<tr>
 							<td><b>Query</b> - (Consulta)</td>
 							<td>Na computação, uma query é uma consulta ou solicitação de informações inseridas em um banco de dados. Usado para recuperar dados específicos de um banco de dados. SGBD (Sistema Gerenciador de Banco de Dados)**: É um software que permite armazenar, organizar e recuperar informações em um banco de dados. Ele fornece ferramentas para criar, transformar e consultar dados com eficiência.</td>
 						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="R">R</th>
+							</tr>
+						</thead>
+						<thead>
+							<tr>
+								<th colspan="2" id="S">S</th>
+							</tr>
+						</thead>
 						<tr>
-							<td><b id="S">Software</b></td>
+							<td><b>Software</b></td>
 							<td>É uma serie de comandos escritos interpretados por um computador para executar tarefas específicas.</td>
 						</tr>
 						<tr>
@@ -221,38 +329,73 @@
 							<td><b>Switch</b></td>
 							<td>É um dispositivo de concentração para conetar diversos computadores em uma conexão de rede local.</td>
 						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="T">T</th>
+							</tr>
+						</thead>
 						<tr>
-							<td><b id="T">TCP/IP</b> (Transmission Control Protocol - Protocolo de Controle de Transmissão)</td>
+							<td><b>TCP/IP</b> (Transmission Control Protocol - Protocolo de Controle de Transmissão)</td>
 							<td>É um conjunto de protocolos para comunicação entre computadore e servidores, formando a internet.</td>
 						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="U">U</th>
+							</tr>
+						</thead>
 						<tr>
-							<td><b id="U">URL</b> (Uniform Resource Locator)</td>
+							<td><b>URL</b> (Uniform Resource Locator)</td>
 							<td>É o localizador Uniforme de Recursos o endereço virtual de uma pagina ou website.</td>
 						</tr>
 						<tr>
 							<td><b>UX</b> (User Experience)</td>
 							<td>Significa experiência de usuario.</td>
 						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="V">V</th>
+							</tr>
+						</thead>
 						<tr>
-							<td><b id="V">VM</b> (Virtual Machine - Maquina virtual)</td>
+							<td><b>VM</b> (Virtual Machine - Maquina virtual)</td>
 							<td>É um ambiente de uso criado por software usado para rodar sistemas operacionais diferentes em um computador ao mesmo tempo.</td>
 						</tr>
 						<tr>
 							<td><b>VPN</b> (Virtual Private Network - Rede Privada Virtual)</td>
 							<td>Pode ser usado para estabelecer uma conexão de rede protegida ao usar redes públicas</td>
 						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="W">W</th>
+							</tr>
+						</thead>
 						<tr>
-							<td><b id="W">Wan</b> (Wide Area Network - rede de longa distância)</td>
+							<td><b>Wan</b> (Wide Area Network - rede de longa distância)</td>
 							<td>É uma rede de computadores que abrange uma grande área geográfica como um país.</td>
 						</tr>
 						<tr>
 							<td><b>Web</b></td>
 							<td>Traduzindo literalmente Teia, mais usado para referir-se a internet.</td>
 						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="X">X</th>
+							</tr>
+						</thead>
 						<tr>
-							<td><b id="X">XML</b> (Extensible Markup Language - Linguagem de Marcação Extensível)</td>
+							<td><b>XML</b> (Extensible Markup Language - Linguagem de Marcação Extensível)</td>
 							<td>Muito usado para contruções de telas de aplicativos androids.</td>
 						</tr>
+						<thead>
+							<tr>
+								<th colspan="2" id="Y">Y</th>
+							</tr>
+						</thead>
+						<thead>
+							<tr>
+								<th colspan="2" id="Z">Z</th>
+							</tr>
+						</thead>
 					</table>
 				</section>
 			<footer style="text-align: center;">Made by <strong>Deryk, João, Gabriel e Antonio</strong></footer>
